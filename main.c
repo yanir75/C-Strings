@@ -1,6 +1,7 @@
 #include "dec.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 int main(){
     char * x = getWord();
@@ -10,5 +11,5 @@ int main(){
     anagram(x,y,check_sum(x,strlen(x)));
     free(x);
     free(y);
-    return 1;
+    return 0;
 }
