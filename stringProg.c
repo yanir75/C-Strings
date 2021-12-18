@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "dec.h"
 #define TXT 1024
 #define WORD 30
 char * getWord(){
