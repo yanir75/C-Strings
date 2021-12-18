@@ -229,6 +229,5 @@ int anagram(char * word , char * txt,int sum){
         }
         free(subW);
     }
-    putchar('\n');
     return 1; 
 }
