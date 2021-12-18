@@ -1,7 +1,7 @@
 all: stringProg
-libstr.a: my_mat.o
+libstr.a: str.o
 	ar -rcs libstr.a str.o
-my_mat.o:
+str.o:
 	gcc -g -Wall -c str.c
 stringProg: libstr.a
 	gcc -static -Wall -g main.c -L. -lstr -o stringProg
