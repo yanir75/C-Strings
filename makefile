@@ -1,6 +1,6 @@
 all: stringProg
 stringProg:
-	gcc -g -Wall -o stringProg main.c
+	gcc -g -Wall -o stringProg stringProg.c
   
 .PHONY: clean all
 
