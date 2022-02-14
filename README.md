@@ -28,3 +28,5 @@ make all
 ```
 Run the program
 ```
+./stringProg
+```
