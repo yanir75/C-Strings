@@ -20,7 +20,7 @@ gcc and make are needed.
 
 First we will clone the repository
 ```
-git clone
+git clone https://github.com/yanir75/C-Strings.git
 ```
 Use the existing makefile
 ```
